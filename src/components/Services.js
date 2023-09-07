@@ -10,25 +10,25 @@ const services = [
   {
     title: "UX/UI Design",
     subtitle:
-      "Ich erstelle für Sie eine moderne, responsive Webseite, die auf allen Geräten gut aussieht.",
+      "Wir erstellen für Dich eine responsive Webseite, die auf allen Geräten gut aussieht, nach Deinen Bedürfnissen. Wir erstellen auch Grafiken und Logos, sowie schreiben alle Texte.",
     icon: iconWebsite,
   },
   {
     title: "Web Development",
     subtitle:
-      "Ich erstelle für Sie eine moderne, responsive Webseite, die auf allen Geräten gut aussieht.",
+      "Wir programmieren selbst Deine Webseite mit HTML5, CSS3, JavaScript oder mit Frameworks wie ReactJS oder Bootstrap.",
     icon: iconDevelopment,
   },
   {
     title: "Marketing & SEO",
     subtitle:
-      "Ich erstelle für Sie eine moderne, responsive Webseite, die auf allen Geräten gut aussieht.",
+      "Wir machen Deine Webseite bekannt und sorgen dafür, dass Dein Unternehmen in den Suchmaschinen gefunden werden wird.",
     icon: iconMarketing,
   },
   {
     title: "Domain & Hosting",
     subtitle:
-      "Ich erstelle für Sie eine moderne, responsive Webseite, die auf allen Geräten gut aussieht.",
+      "Wir helfen Dir, Domain zu kaufen und die Webseite auf einem Server zu hosten.",
     icon: iconHosting,
   }
 ];

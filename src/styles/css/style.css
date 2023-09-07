@@ -141,6 +141,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+  @media (max-width: 768px) {
+    nav {
+      justify-content: center; } }
   nav ul.nav-links {
     display: flex;
     justify-content: space-between;
@@ -168,6 +171,21 @@ nav {
   align-items: center;
   margin-top: 20px;
   font-weight: 84px; }
+  #hero .hero-buttons .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease; }
+    #hero .hero-buttons .btn:hover {
+      background-color: #0056b3; }
+  #hero .hero-buttons .btn-primary {
+    background-color: #FFA500;
+    color: black; }
+    @media (max-width: 768px) {
+      #hero .hero-buttons .btn-primary {
+        margin-bottom: 10px; } }
   @media (max-width: 768px) {
     #hero .hero-buttons {
       flex-direction: column;
@@ -214,16 +232,20 @@ a.btn {
     #services .card-image .icon-container img {
       overflow: hidden; }
 
+#portfolio .row {
+  align-items: stretch;
+  justify-content: stretch;
+  flex-wrap: wrap; }
 #portfolio a {
   color: white;
-  /*remove font decoration*/
   text-decoration: none; }
 #portfolio .portfolio-card {
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: 0.3s ease; }
+  transition: 0.3s ease;
+  padding: 16px; }
   #portfolio .portfolio-card::before {
     content: '';
     position: absolute;
@@ -245,7 +267,8 @@ a.btn {
       height: 100%;
       object-fit: cover; }
   #portfolio .portfolio-card .portfolio-content {
-    padding: 16px; }
+    padding: 16px;
+    background-color: black; }
 
 #footer li {
   line-height: 1.2; }

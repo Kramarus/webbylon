@@ -44,6 +44,9 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @include screen-max(768px) {
+        justify-content: center;
+    }
 
     .nav-logo {}
 
@@ -85,6 +88,27 @@ nav {
         align-items: center;
         margin-top: 20px;
         font-weight: 84px;
+        .btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+        
+        .btn-primary {
+            background-color: $primary-color;
+            color: black;
+        
+            @include screen-max(768px) {
+                margin-bottom: 10px;
+            }
+        }
 
         @include screen-max(768px) {
             flex-direction: column;
@@ -153,9 +177,13 @@ a.btn {
 }
 
 #portfolio {
+    .row {
+        align-items: stretch;
+        justify-content: stretch;
+        flex-wrap: wrap;
+    }
     a {
         color: white;
-        /*remove font decoration*/
         text-decoration: none;
     }
     .portfolio-card {
@@ -164,6 +192,7 @@ a.btn {
         position: relative;
         overflow: hidden; 
         transition: 0.3s ease; 
+        padding: 16px;
         &::before {
             content: '';
             position: absolute;
@@ -192,6 +221,8 @@ a.btn {
         }
         .portfolio-content {
             padding: 16px;
+            background-color: black;
+
         }
     }
 }
