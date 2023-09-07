@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/webbylon/static/css/main.6ccf5765.css",
+    "main.js": "/webbylon/static/js/main.af562e45.js",
+    "static/js/787.ad27cd0e.chunk.js": "/webbylon/static/js/787.ad27cd0e.chunk.js",
+    "static/media/bg.png": "/webbylon/static/media/bg.326e944c445a6cd654a7.png",
+    "static/media/kebabking.png": "/webbylon/static/media/kebabking.6e123d015d46de9c0e05.png",
+    "static/media/teploenergo.png": "/webbylon/static/media/teploenergo.985578cbaf7d96f824e5.png",
+    "static/media/danagrotrade.png": "/webbylon/static/media/danagrotrade.f3b6ce707bbd1be796e7.png",
+    "static/media/danagro.png": "/webbylon/static/media/danagro.4fe1a2d5cbac1bc16d7f.png",
+    "static/media/everkitchen.png": "/webbylon/static/media/everkitchen.a62920fd2d890ab789df.png",
+    "static/media/hundesalon.png": "/webbylon/static/media/hundesalon.104317fb6eb12863171d.png",
+    "static/media/website.svg": "/webbylon/static/media/website.9bf2689ecfc0f2fb1799b6c40b79414c.svg",
+    "static/media/development.svg": "/webbylon/static/media/development.a63e8abbc8a9f6f17b2e72935e4744fc.svg",
+    "static/media/marketing.svg": "/webbylon/static/media/marketing.ebbdcb3793db3b7a8c5583739175c05e.svg",
+    "static/media/logo.svg": "/webbylon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/hosting.svg": "/webbylon/static/media/hosting.0dbed12f7a8683a90ca79a03a3ab2637.svg",
+    "index.html": "/webbylon/index.html",
+    "main.6ccf5765.css.map": "/webbylon/static/css/main.6ccf5765.css.map",
+    "main.af562e45.js.map": "/webbylon/static/js/main.af562e45.js.map",
+    "787.ad27cd0e.chunk.js.map": "/webbylon/static/js/787.ad27cd0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ccf5765.css",
+    "static/js/main.af562e45.js"
+  ]
+}
