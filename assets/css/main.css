@@ -120,7 +120,7 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.page-header .cta-btn {
+.cta-btn {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 14px;
@@ -134,8 +134,13 @@ h6 {
   background: var(--color-primary);
 }
 
-.page-header .cta-btn:hover {
+.cta-btn:hover {
   background: #2cbc85;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /*--------------------------------------------------------------
@@ -467,6 +472,10 @@ h6 {
   .mobile-nav-hide {
     display: none;
   }
+}
+
+.text-just {
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
