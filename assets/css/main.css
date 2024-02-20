@@ -1232,6 +1232,26 @@ h6 {
   background: #2cbc85;
 }
 
+.hero .btn-get-started2 {
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.hero .btn-get-started2:hover {
+  background: #fff;
+  color: #000;
+}
+
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;
