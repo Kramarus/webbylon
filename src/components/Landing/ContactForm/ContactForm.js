@@ -1,9 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
 export default function ContactForm() {
   const form = useRef();
+
+  const [name, setName] = useState();
+  const [phone, setPhone] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
 
   const sendEmail = (e) => {
     const SERVICE_ID = 'service_t3g0qae';
@@ -18,7 +23,11 @@ export default function ContactForm() {
       })
       .then(
         () => {
-          console.log("Success!");
+          alert("Wir haben Ihre Nachricht erhalten!");
+          setName('');
+          setPhone('');
+          setEmail('');
+          setMessage('');
         },
         (error) => {
           console.log('Failed...', error.text);
@@ -35,21 +44,21 @@ export default function ContactForm() {
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form ref={form} onSubmit={sendEmail}>
+              <form ref={form} onSubmit={sendEmail} method="POST">
                 <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
+                  <label for="name" class="form-label" value={name}>Name</label>
                   <input type="text" class="form-control" id="name" name='name' />
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
+                  <label for="email" class="form-label" value={email}>Email</label>
                   <input type="email" class="form-control" id="email" name='email' />
                 </div>
                 <div class="mb-3">
-                  <label for="phone" class="form-label">Telefonnummer</label>
+                  <label for="phone" class="form-label" value={phone}>Telefonnummer</label>
                   <input type="tel" class="form-control" id="phone" name='phone' />
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">Nachricht</label>
+                  <label for="message" class="form-label" value={message}>Nachricht</label>
                   <textarea class="form-control" id="message" rows="3" name='message'></textarea>
                 </div>
                 <div class="mb-3 form-check">
@@ -57,7 +66,7 @@ export default function ContactForm() {
                     <label class="form-check-label" for="exampleCheck1">Ich bin mit Verarbeitung meiner Daten einverstanden.</label>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn btn-success">Submit</button>
+                  <button type="submit" class="btn btn-success" data-dismiss="modal">Submit</button>
                 </div>
               </form>
             </div>
