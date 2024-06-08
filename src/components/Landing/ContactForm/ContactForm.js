@@ -46,27 +46,28 @@ export default function ContactForm() {
             <div class="modal-body">
               <form ref={form} onSubmit={sendEmail} method="POST">
                 <div class="mb-3">
-                  <label for="name" class="form-label" value={name}>Name</label>
-                  <input type="text" class="form-control" id="name" name='name' />
+                  <label htmlFor="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name='name' value={name} onChange={(e) => setName(e.target.value)} required />
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label" value={email}>Email</label>
-                  <input type="email" class="form-control" id="email" name='email' />
+                  <label htmlFor="email" class="form-label" value={email}>Email</label>
+                  <input type="email" class="form-control" id="email" name='email' value={email} onChange={(e) => setEmail(e.target.value)} required />
                 </div>
                 <div class="mb-3">
-                  <label for="phone" class="form-label" value={phone}>Telefonnummer</label>
-                  <input type="tel" class="form-control" id="phone" name='phone' />
+                  <label htmlFor="phone" class="form-label" value={phone}>Telefonnummer</label>
+                  <input type="tel" class="form-control" id="phone" name='phone' value={phone} onChange={(e) => setPhone(e.target.value)} />
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label" value={message}>Nachricht</label>
-                  <textarea class="form-control" id="message" rows="3" name='message'></textarea>
+                  <label htmlFor="message" class="form-label" value={message}>Nachricht</label>
+                  <textarea class="form-control" id="message" rows="3" name='message' value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="edv" name='agreed' />
-                    <label class="form-check-label" for="exampleCheck1">Ich bin mit Verarbeitung meiner Daten einverstanden.</label>
+                    <label class="form-check-label" htmlFor="exampleCheck1">Ich bin mit Verarbeitung meiner Daten einverstanden.</label>
                 </div>
                 <div class="text-center">
-                  <button type="submit" class="btn btn-success" data-dismiss="modal">Submit</button>
+                  <button type="submit" class="btn btn-success m-3">Senden</button>
+                  <a class="btn btn-danger m-3" data-bs-dismiss="modal">Zurück</a>
                 </div>
               </form>
             </div>
