@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/webbylon/static/css/main.394e0e6b.css",
-    "main.js": "/webbylon/static/js/main.8016950b.js",
-    "static/js/453.13285cf6.chunk.js": "/webbylon/static/js/453.13285cf6.chunk.js",
-    "static/media/spitzner.png": "/webbylon/static/media/spitzner.6297d91ca585d740aa7a.png",
-    "static/media/rbr.png": "/webbylon/static/media/rbr.fd02f670c1804764d240.png",
-    "static/media/kebabking.png": "/webbylon/static/media/kebabking.6e123d015d46de9c0e05.png",
-    "static/media/teploenergo.png": "/webbylon/static/media/teploenergo.985578cbaf7d96f824e5.png",
-    "static/media/danagrotrade.png": "/webbylon/static/media/danagrotrade.f3b6ce707bbd1be796e7.png",
-    "static/media/danagro.png": "/webbylon/static/media/danagro.4fe1a2d5cbac1bc16d7f.png",
-    "static/media/everkitchen.png": "/webbylon/static/media/everkitchen.a62920fd2d890ab789df.png",
-    "static/media/hundesalon.png": "/webbylon/static/media/hundesalon.104317fb6eb12863171d.png",
-    "index.html": "/webbylon/index.html",
-    "main.394e0e6b.css.map": "/webbylon/static/css/main.394e0e6b.css.map",
-    "main.8016950b.js.map": "/webbylon/static/js/main.8016950b.js.map",
-    "453.13285cf6.chunk.js.map": "/webbylon/static/js/453.13285cf6.chunk.js.map"
+    "main.css": "/static/css/main.394e0e6b.css",
+    "main.js": "/static/js/main.f4e4ce9a.js",
+    "static/js/453.13285cf6.chunk.js": "/static/js/453.13285cf6.chunk.js",
+    "static/media/spitzner.png": "/static/media/spitzner.6297d91ca585d740aa7a.png",
+    "static/media/rbr.png": "/static/media/rbr.fd02f670c1804764d240.png",
+    "static/media/kebabking.png": "/static/media/kebabking.6e123d015d46de9c0e05.png",
+    "static/media/teploenergo.png": "/static/media/teploenergo.985578cbaf7d96f824e5.png",
+    "static/media/danagrotrade.png": "/static/media/danagrotrade.f3b6ce707bbd1be796e7.png",
+    "static/media/danagro.png": "/static/media/danagro.4fe1a2d5cbac1bc16d7f.png",
+    "static/media/everkitchen.png": "/static/media/everkitchen.a62920fd2d890ab789df.png",
+    "static/media/hundesalon.png": "/static/media/hundesalon.104317fb6eb12863171d.png",
+    "index.html": "/index.html",
+    "main.394e0e6b.css.map": "/static/css/main.394e0e6b.css.map",
+    "main.f4e4ce9a.js.map": "/static/js/main.f4e4ce9a.js.map",
+    "453.13285cf6.chunk.js.map": "/static/js/453.13285cf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.394e0e6b.css",
-    "static/js/main.8016950b.js"
+    "static/js/main.f4e4ce9a.js"
   ]
 }
