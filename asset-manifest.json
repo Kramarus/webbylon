@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webbylon/static/css/main.394e0e6b.css",
-    "main.js": "/webbylon/static/js/main.95a00052.js",
+    "main.js": "/webbylon/static/js/main.1ec3dbcf.js",
     "static/js/453.13285cf6.chunk.js": "/webbylon/static/js/453.13285cf6.chunk.js",
     "static/media/spitzner.png": "/webbylon/static/media/spitzner.6297d91ca585d740aa7a.png",
     "static/media/rbr.png": "/webbylon/static/media/rbr.fd02f670c1804764d240.png",
@@ -13,11 +13,11 @@
     "static/media/hundesalon.png": "/webbylon/static/media/hundesalon.104317fb6eb12863171d.png",
     "index.html": "/webbylon/index.html",
     "main.394e0e6b.css.map": "/webbylon/static/css/main.394e0e6b.css.map",
-    "main.95a00052.js.map": "/webbylon/static/js/main.95a00052.js.map",
+    "main.1ec3dbcf.js.map": "/webbylon/static/js/main.1ec3dbcf.js.map",
     "453.13285cf6.chunk.js.map": "/webbylon/static/js/453.13285cf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.394e0e6b.css",
-    "static/js/main.95a00052.js"
+    "static/js/main.1ec3dbcf.js"
   ]
 }
